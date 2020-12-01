@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings_homepages",
+  "info": {
+    "name": "settings_homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Nama_Perusahaan": {
+      "type": "string"
+    },
+    "Alamat_Perusahaan": {
+      "type": "text"
+    }
+  }
+}
